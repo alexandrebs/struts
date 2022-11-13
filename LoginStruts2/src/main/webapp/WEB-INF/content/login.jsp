@@ -24,9 +24,13 @@
 	<br />
 
 	<div>
-		<s:text name="form.valores"></s:text> <br />
-		<s:property value="formUsuario" /> 	<s:property value="usuario" /><br />
-		<s:property value="formPassword" /> <s:property value="password" />
+		<s:text name="form.valores"></s:text>
+		<br />
+		<s:property value="formUsuario" />
+		<s:property value="usuario" />
+		<br />
+		<s:property value="formPassword" />
+		<s:property value="password" />
 
 	</div>
 </body>
