@@ -1,0 +1,31 @@
+package beans.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+import org.apache.logging.log4j.*;
+
+public class LoginAction extends ActionSupport {
+
+	private String usuario;
+	private String password;
+	
+	Logger log = LogManager.getLogger(LoginAction.class);
+
+	public String execute() {
+		return SUCCESS;
+	}
+	
+	
+	
+	
+	public String getTitulo() {
+		return getText("pessoa.titulo");
+	}
+	
+	public String getValor() {
+		return getText("pessoa.valor");
+	}
+	
+	public String getBotao() {
+		return getText("pessoa.botao");
+	}
+}

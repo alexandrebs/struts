@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Início</title>
+</head>
+<body>
+			<h3>Olá</h3>
+			
+			<a href="saudar">Ir a struts 2</a>
+</body>
+</html>

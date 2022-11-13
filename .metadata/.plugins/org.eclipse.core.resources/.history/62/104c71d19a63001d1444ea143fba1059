@@ -1,0 +1,28 @@
+package beans.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class MostarPessoaAction extends ActionSupport {
+
+	private static final long serialVersionUID = 1L;
+	private String nome;
+	
+
+
+	public String execute() {
+		
+		return SUCCESS;
+	}
+	
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	
+}

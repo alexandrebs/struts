@@ -1,0 +1,28 @@
+package beans.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class MostarPessoaAction extends ActionSupport {
+
+
+	private String nome;
+	
+
+
+	public String execute() {
+		System.out.println("executando método struts2");
+		return "SUCCESS";
+	}
+	
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	
+}

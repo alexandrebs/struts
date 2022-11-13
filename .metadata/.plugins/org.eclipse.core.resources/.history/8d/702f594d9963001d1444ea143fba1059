@@ -1,0 +1,27 @@
+package beans.actions;
+
+public class MostarPessoaAction {
+
+
+	private String nome;
+	
+
+
+	public String execute() {
+		System.out.println("executando método struts2");
+		this.nome = "Olá Struts2 com convenção e action";
+		return "SUCCESS";
+	}
+	
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	
+}

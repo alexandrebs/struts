@@ -1,0 +1,13 @@
+
+m
+java:S3457"AFormat specifiers should be used instead of string concatenation.(ƒ¨Š€HŽRMAJORZ
+CODE_SMELL
+T
+java:S1948"%Make "log" transient or serializable.(ö€ÛÓH‹RCRITICALZ
+CODE_SMELL
+c
+java:S2629"7Use the built-in formatting to construct this argument.(ƒ¨Š€HŠRMAJORZ
+CODE_SMELL
+k
+java:S1161":Add the "@Override" annotation above this method signature(“¦õøúÿÿÿÿHŒRMAJORZ
+CODE_SMELL

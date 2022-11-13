@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+
+<%@taglib prefix="s" uri="/struts-tags"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mostar pessoa com Struts 2</title>
+</head>
+<body>
+
+		<s:form>
+		
+			<s:textfield name="nome"/>
+			<s:submit value="enviar"/>
+		
+		</s:form>
+
+		<div>
+			Nome proporcionado: <s:property value="nome"/>
+		</div>
+
+</body>
+</html>

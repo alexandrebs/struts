@@ -1,0 +1,30 @@
+package action;
+
+import java.util.logging.LogManager;
+
+import org.graalvm.compiler.replacements.Log;
+
+import com.opensymphony.xwork2.util.logging.Logger;
+
+public class OlaMundoAction {
+
+
+	private String bemVindoAtr;
+
+	
+	public String execute() {
+		System.out.println("executando");
+		return "Executando";
+	}
+	
+	public String getBemVindoAtr() {
+		return bemVindoAtr;
+	}
+
+	public void setBemVindoAtr(String bemVindoAtr) {
+		this.bemVindoAtr = bemVindoAtr;
+	}
+	
+	
+	
+}
