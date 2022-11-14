@@ -9,6 +9,7 @@
 <title><s:property value="formTitulo" /></title>
 </head>
 <body>
+
 	<h3>
 		<s:property value="formTitulo" />
 	</h3>
@@ -32,6 +33,11 @@
 		<s:property value="formPassword" />
 		<s:property value="password" />
 
+		
+		      <s:property value="errorLogin" />
+		      <s:property value="error" />
+		
+		
 	</div>
 </body>
 </html>
