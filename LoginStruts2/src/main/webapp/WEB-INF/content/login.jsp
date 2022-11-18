@@ -6,14 +6,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><s:property value="formTitulo" /></title>
+<title><s:text name="form.titulo" /></title>
+
+<s:head/>
+
 </head>
 <body>
 
-	<h3>
-		<s:property value="formTitulo" />
-	</h3>
-	<s:form>
+	<h3> <s:text  name="form.titulo" />	</h3>
+	
+	<h1><s:text  name="form.titulo" /></h1>
+	
+	<s:actionerror/>
+	
+	<s:form action="validarUsuario">
 
 		<s:textfield key="form.usuario" name="usuario" />
 		<s:password key="form.password" name="password" />
